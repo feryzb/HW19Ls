@@ -1,0 +1,31 @@
+.product__container {
+  margin-top: 114px;
+  text-align: center;
+color: #22343D;
+
+
+}
+.special__for__me {
+  align-items: center;
+}
+.special__box {
+  margin-top: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 50px;
+
+}
+
+.product__btn {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  width: 175px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 4px;
+      background: #02897A;
+      font-family: "Poppins";
+      color: white;
+}

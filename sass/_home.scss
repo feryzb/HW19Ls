@@ -1,0 +1,48 @@
+.home__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  &__left {
+    width: 50%;
+
+  }
+  h1 {
+    font-family: "poppins";
+    display: flex;
+    width: 518px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+    color: #22343D;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  p {
+    display: flex;
+      width: 458px;
+      height: 95px;
+      flex-direction: column;
+      flex-shrink: 0;
+    color: #22343D;
+margin-top: 18px;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+  }
+  button {
+    font-family: "poppins";
+    width: 175px;
+    height: 53px;
+    border-radius: 4px;
+    margin-top: 60px;
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: $card-bg-color;
+    color: white;
+    box-shadow: 0;
+  }
+}
